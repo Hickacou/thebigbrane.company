@@ -1,0 +1,51 @@
+footer {
+	position: relative;
+	height: 20%;
+	padding: 0 10px;
+	background: #2c2c2c;
+	color: #fff;
+	overflow: hidden;
+}
+
+
+footer h2 {
+	margin-bottom: 0;
+	font: bold 15pt "Times Newer Roman";
+}
+footer h3 {
+	margin: 0;
+	font: 11pt "Montserrat";
+	opacity: .2;
+}
+footer p {
+	display: none;
+}
+
+footer #copyright {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 1px;
+	font: 8pt Arial;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	footer h2 {
+		font-size: 22pt;
+	}
+	footer h3 {
+		font-size: 15pt;
+	}
+	footer p {
+		display: block;
+		margin: 0;
+		text-align: center;
+		font: 15pt "Times Newer Roman";
+	}
+
+	footer #copyright {
+		bottom: 3px;
+		font-size: 9pt;
+	}
+}

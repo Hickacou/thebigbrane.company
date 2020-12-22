@@ -1,0 +1,63 @@
+#contact {
+	position: relative;
+	height: 80%;
+	background: linear-gradient(to right top, #a4c2f4, #8cccfe, #6ed6ff, #4de0ff, #33e9f6);
+	overflow: hidden;
+}
+
+#contact h3 {
+	margin: 30px 0;
+	font: 35pt "Times Newer Roman";
+	text-align: center;
+}
+
+#contact p {
+	font: 10pt "Times Newer Roman";
+	text-align: center;
+}
+
+
+#contact a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font: 15pt "Montserrat";
+	text-decoration: none;
+	opacity: .5;
+	transition: .3s ease;
+}
+
+#contact a:hover {
+	transform: translate(-50%,-50%) scale(1.1);
+	opacity: .9;
+}
+
+
+@media screen and (min-width: 425px) {
+	#contact h3 {
+		font-size: 40pt;
+	}
+
+	#contact p {
+		font-size: 12pt;
+	}
+
+	#contact a {
+		font-size: 20pt;
+	}
+}
+@media screen and (min-width: 768px) {
+	#contact h3 {
+		font-size: 50pt;
+	}
+
+	#contact p {
+		font-size: 20pt;
+	}
+
+	#contact a {
+		font-size: 35pt;
+	}
+}

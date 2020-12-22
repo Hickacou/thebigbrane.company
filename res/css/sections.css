@@ -1,0 +1,59 @@
+.presentation-section {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.presentation-section h3 {
+	display: table;
+	padding: 5px 15px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background: #fff;
+	font: 22pt "Montserrat";
+	text-align: center;
+	white-space: nowrap;
+}
+
+.presentation-section p {
+	width: 98%;
+	margin: 0 auto;
+	color: #fff;
+	font: bold 18pt "Times Newer Roman";
+	text-align: justify;
+}
+
+.presentation-section#goal {
+	background: linear-gradient(to right top, #f9f871, #ffe575, #ffd37e, #ffc48a, #ffb896) fixed;
+}
+
+.presentation-section#values {
+	background: linear-gradient(to right top, #33e9f6, #31edee, #3af0e5, #48f3db, #5af6cf) fixed;
+}
+
+.presentation-section#functioning {
+	background: linear-gradient(to right top, #df2f5a, #e74781, #e860a5, #e379c6, #da91e2) fixed;
+}
+
+
+@media screen and (min-width: 720px) {
+	.presentation-section h3 {
+		font-size: 30pt;
+	}
+
+	.presentation-section p {
+		font-size: 29pt;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.presentation-section h3 {
+		font-size: 40pt;
+	}
+
+	.presentation-section p {
+		width: 90%;
+		font-size: 34pt;
+		line-height: 60px;
+	}
+}
